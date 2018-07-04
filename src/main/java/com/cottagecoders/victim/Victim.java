@@ -17,8 +17,8 @@ public class Victim {
     Victim victim = new Victim();
 
     for (int i = 0; i < 5; i++) {
-      victim.run1();
-      victim.run2();
+      victim.bobrun1();
+      victim.bobrun2();
     }
 
   }
@@ -32,8 +32,8 @@ public class Victim {
     }
   }
 
-  private void run1() {
-    log.info("Victim run1 got here.");
+  private void bobrun1() {
+    log.info("Victim bobrun1 got here.");
     try {
       Thread.sleep(1000);
     } catch (InterruptedException ex) {
@@ -41,8 +41,8 @@ public class Victim {
     }
   }
 
-  private void run2() {
-    log.info("Victim run2 got here.");
+  private void bobrun2() {
+    log.info("Victim bobrun2 got here.");
     try {
       Thread.sleep(1000);
     } catch (InterruptedException ex) {
