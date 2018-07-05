@@ -24,7 +24,7 @@ public class Victim {
   }
 
   private static void method1() {
-    log.info("got here.");
+    log.info("method1 - got here.");
     try {
       Thread.sleep(1000);
     } catch (InterruptedException ex) {
